@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="icon" href="img/favicon.ico">
+    <title>momokawa.</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'kiv7imq',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="header-illust">
+            <img id="header-img" src="img/headerIllust.PNG">
+        </div>
+        <img id="logo" src="img/logo.png">
+        <ul id="navigation">
+            <li><a href="#">TOP</a></li>
+            <li><a href="#about">PROFILE</a></li>
+            <li><a href="#works">WORKS</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#skill">SKILL</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </header>
+
+    <div id="loading">
+        <img src="img/loading.png">
+    </div>
+
+    <div class="container">
+        <div id="main-visual">
+            <div class="background">
+                <img src="img/background.png">
+                <img src="img/background.png">
+            </div>
+            <img id="visual-animation" src="img/mainVisual.png">
+            <img id="visual-name" src="img/visualName.png">
+        </div>
+
+        <div id="about">
+            <h1>PROFILE</h1>
+            <img src="img/20210708.png">
+            <div id="profile">
+                <p>2002年3月生まれ、神奈川県川崎市在住</p>
+                <p>2020年に大妻女子大学 社会情報学部 情報デザイン専攻に入学</p>
+                <p>デザインとプログラミングを基礎から学んでいます。</p>
+                <p></p>
+                <p></p>
+                <p>くすんだきらめきを拾い集めることが好きです。</p>
+                <p>文章やイラストなど、自分の見ている世界をアウトプットすることが得意です。</p>
+                <p>好きなことは未来を想像すること。</p>
+                <p>どんなときでも5歩先を目指してフルスロットルで駆け抜けています。</p>
+            </div>
+
+        </div>
+
+        <div id="works">
+            <h1>WORKS</h1>
+            <p>画像をクリックすると詳細が開きます</p>
+            <div class="flexbox">
+                <div class="work-item 2022schedule">
+                    <div class="work-hover">
+                        <img src="img/works/2022schedulew.png">
+                        <div class="mask">
+                            <a class="caption">#2022スケジュール</a>
+                        </div>
+                    </div>
+                    <p>Illustrator/InDesign</p>
+                </div>
+                <div class="work-item 2022studyplanner">
+                    <div class="work-hover">
+                        <img src="img/works/2022studyplannerw.png">
+                        <div class="mask">
+                            <a class="caption">
+                                #スタディプランナー
+                            </a>
+                        </div>
+                    </div>
+                    <p>Illustrator</p>
+                </div>
+                <div class="work-item 20220117">
+                    <div class="work-hover">
+                        <img src="img/works/20220117w.png">
+                        <div class="mask">
+                            <a class="caption">
+                                #ゲーム開発
+                            </a>
+                        </div>
+                    </div>
+                    <p>Processing</p>
+                </div>
+                <div class="work-item 20211217">
+                    <div class="work-hover">
+                        <img src="img/works/20211217w.png">
+                        <div class="mask">
+                            <a class="caption">
+                                #Webアプリ開発
+                            </a>
+                        </div>
+                    </div>
+                    <p>HTML/CSS/JavaScript</p>
+                </div>
+                <div class="work-item 20210713">
+                    <div class="work-hover">
+                        <img src="img/works/20210713w.png">
+                        <div class="mask">
+                            <a class="caption">
+                                #アプリ企画
+                            </a>
+                        </div>
+                    </div>
+                    <p>Photoshop</p>
+                </div>
+                <div class="work-item 20210124">
+                    <div class="work-hover">
+                        <img src="img/works/20210124w.png">
+                        <div class="mask">
+                            <a class="caption">
+                                #キャラデザイン
+                            </a>
+                        </div>
+                    </div>
+                    <p>Photoshop/Illustrator</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="gallery">
+            <h1>GALLERY</h1>
+            <div class="flexbox">
+                <div class="gallery-item">
+                    <div class="gallery-hover">
+                        <img src="img/gallery/20220529g.png">
+                        <div class="mask">
+                            <a class="caption">#プライド</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-hover">
+                        <img src="img/gallery/20220502g.png">
+                        <div class="mask">
+                            <a class="caption">#上の空</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-hover">
+                        <img src="img/gallery/20220226g.png">
+                        <div class="mask">
+                            <a class="caption">#訪れ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-hover">
+                        <img src="img/gallery/20211226.PNG">
+                        <div class="mask">
+                            <a class="caption">#404</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-hover">
+                        <img src="img/gallery/20211225.PNG">
+                        <div class="mask">
+                            <a class="caption">#不徳</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-hover">
+                        <img src="img/gallery/20211105.png">
+                        <div class="mask">
+                            <a class="caption">#shot</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-hover">
+                        <img src="img/gallery/20211101.png">
+                        <div class="mask">
+                            <a class="caption">#ぬいぐるみ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-hover">
+                        <img src="img/gallery/20210708.PNG">
+                        <div class="mask">
+                            <a class="caption">#百川ニダ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-hover">
+                        <img src="img/gallery/20210328.png">
+                        <div class="mask">
+                            <a class="caption">#似たもの同士</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-hover">
+                        <img src="img/gallery/20210130.jpeg">
+                        <div class="mask">
+                            <a class="caption">#よその子</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-hover">
+                        <img src="img/gallery/20210103.png">
+                        <div class="mask">
+                            <a class="caption">#よその子</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-hover">
+                        <img src="img/gallery/20210102.png">
+                        <div class="mask">
+                            <a class="caption">#よその子</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-hover">
+                        <img src="img/gallery/20201228.PNG">
+                        <div class="mask">
+                            <a class="caption">#焼きたて</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-hover">
+                        <img src="img/gallery/20200804.JPG" />
+                        <div class="mask">
+                            <a class="caption">#排斥</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="skill">
+            <h1>SKILL</h1>
+            <div id="skill-content">
+                <div class="skill-item html">
+                    <p id="skill-name">
+                        HTML/CSS
+                    </p>
+                    <div id="indicator">
+                        <div id="percentage">
+                            <p style="--width:80%"></p>
+                        </div>
+                    </div>
+                    <div id="html-comment">
+                        <p id="html-text">
+                            サイトやWebアプリの制作が可能です
+                        </p>
+                    </div>
+                    <span>b</span>
+                </div>
+                <div class="skill-item javascript">
+                    <p id="skill-name">
+                        JavaScript
+                    </p>
+                    <div id="indicator">
+                        <div id="percentage">
+                            <p style="--width:80%"></p>
+                        </div>
+                    </div>
+                    <div id="javascript-comment">
+                        <p id="javascript-text">
+                            動的なサイトの制作が可能です
+                        </p>
+                    </div>
+                    <span>b</span>
+                </div>
+                <div class="skill-item python">
+                    <p id="skill-name">
+                        Python
+                    </p>
+                    <div id="indicator">
+                        <div id="percentage">
+                            <p style="--width:60%"></p>
+                        </div>
+                    </div>
+                    <div id="python-comment">
+                        <p id="python-text">
+                            データの前処理が可能です
+                        </p>
+                    </div>
+                    <span>b</span>
+                </div>
+                <div class="skill-item java">
+                    <p id="skill-name">
+                        Java
+                    </p>
+                    <div id="indicator">
+                        <div id="percentage">
+                            <p style="--width:50%"></p>
+                        </div>
+                    </div>
+                    <div id="java-comment">
+                        <p id="java-text">
+                            Webアプリの制作が可能です
+                        </p>
+                    </div>
+                    <span>b</span>
+                </div>
+                <div class="skill-item photoshop">
+                    <p id="skill-name">
+                        Photoshop
+                    </p>
+                    <div id="indicator">
+                        <div id="percentage">
+                            <p style="--width:70%"></p>
+                        </div>
+                    </div>
+                    <div id="photoshop-comment">
+                        <p id="photoshop-text">
+                            バナー制作、その他簡単な画像処理が可能です
+                        </p>
+                    </div>
+                    <span>b</span>
+                </div>
+                <div class="skill-item illustrator">
+                    <p id="skill-name">
+                        Illustrator
+                    </p>
+                    <div id="indicator">
+                        <div id="percentage">
+                            <p style="--width:80%"></p>
+                        </div>
+                    </div>
+                    <div id="illustrator-comment">
+                        <p id="illustrator-text">
+                            デジタルポスターなどの制作が可能です
+                        </p>
+                    </div>
+                    <span>b</span>
+                </div>
+                <div class="skill-item indesign">
+                    <p id="skill-name">
+                        InDesign
+                    </p>
+                    <div id="indicator">
+                        <div id="percentage">
+                            <p style="--width:60%"></p>
+                        </div>
+                    </div>
+                    <div id="indesign-comment">
+                        <p id="indesign-text">
+                            フライヤーなどの制作が可能です
+                        </p>
+                    </div>
+                    <span>b</span>
+                </div>
+                <div class="skill-item blender">
+                    <p id="skill-name">
+                        Blender
+                    </p>
+                    <div id="indicator">
+                        <div id="percentage">
+                            <p style="--width:60%"></p>
+                        </div>
+                    </div>
+                    <div id="blender-comment">
+                        <p id="blender-text">
+                            キャラモデルの制作が可能です
+                        </p>
+                    </div>
+                    <span>b</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <h1>CONTACT</h1>
+            <p id="text">お問い合わせはこちらからどうぞ</p>
+            <div id="contact-item">
+                <a href="http://twitter.com/n1da_m0m0kawa" target="_blank">
+                    <img src="img/twitterLogo.png" width="70">
+                    <p id="content-name">TWITTER</p>
+                </a>
+                <a href="mailto:m.hagiwara0237@gmail.com?subject=問い合わせ&amp;body=要件をご記入ください">
+                    <img src="img/mailLogo.png" width="70">
+                    <p id="content-name">E-MAIL</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="button-to-top">
+        <a href="#"></a>
+    </div>
+
+    <div id="dock">
+        <div id="twitter">
+            <a href="https://twitter.com/n1da_m0m0kawa" target="_blank">
+                <img src="img/twitterLogo.png" width="70">
+            </a>
+        </div>
+        <div id="github">
+            <a href="https://github.com/M-Hagiwara0237" target="_blank">
+                <img src="img/githubLogo.png" width="70">
+            </a>
+        </div>
+    </div>
+
+    <div class="popup">
+        <div class="popup-item">
+            <embed id="schedule22pdf" src="img/works/2022schedule_sample.pdf#toolbar=0&navpanes=0" width="500" height="400">
+            <embed id="studyplanner22pdf" src="img/works/2022studyplanner_sample.pdf#toolbar=0&navpanes=0" width="500" height="600">
+            <embed id="w20220117pdf" src="img/works/20220117.pdf#toolbar=0&navpanes=0" width="500" height="400">
+            <embed id="w20211217pdf" src="img/works/20211217.pdf#toolbar=0&navpanes=0" width="500" height="400">
+            <embed id="w20210713pdf" src="img/works/20210713.pdf#toolbar=0&navpanes=0" width="500" height="340">
+            <embed id="w20210124pdf" src="img/works/20210124.pdf#toolbar=0&navpanes=0" width="500" height="340">
+        </div>
+
+        <div class="popup-content">
+            <p class="popup-title"></p>
+            <p class="popup-text"></p>
+        </div>
+        <p id="close">X</p>
+    </div>
+
+
+    <footer>
+        <p id="copyright">© MOMOKAWA NIDA 2022</p>
+    </footer>
+</body>
+
+<script>
+    let head = $('header');
+    let headerIllust = $('#header-illust');
+    let logo = $('#logo');
+    let navigation = $('#navigation');
+
+    let loading = $("#loading");
+
+    let popup = $('.popup');
+    let schedule22 = $('.2022schedule');
+    let schedule22pdf = $('#schedule22pdf');
+    let studyplanner22 = $('.2022studyplanner');
+    let studyplanner22pdf = $('#studyplanner22pdf');
+    let w20220117 = $('.20220117');
+    let w20220117pdf = $('#w20220117pdf');
+    let w20211217 = $('.20211217');
+    let w20211217pdf = $('#w20211217pdf');
+    let w20210713 = $('.20210713');
+    let w20210713pdf = $('#w20210713pdf');
+    let w20210124 = $('.20210124');
+    let w20210124pdf = $('#w20210124pdf');
+
+
+    let button = $('#button-to-top');
+    let dock = $('#dock');
+    let topLocate = $('.container').offset().top
+
+
+    $(window).on('scroll', function() {
+        if (head.css('display') == 'none') {
+            head.css('top', '-100px');
+            head.css('display', 'block');
+            head.animate({
+                top: 0
+            }, 1000);
+        }
+        if (button.css('display') == 'none') {
+            button.fadeIn(600);
+        }
+    });
+
+    $(window).on('load', function() {
+        setTimeout(function() {
+            loading.fadeOut(2000);
+        }, 2000);
+        setTimeout(function() {
+            $('html').css("overflow-y", "scroll");
+        }, 4000);
+    });
+
+    $(window).scroll(function() {
+        let check = window.pageYOffset;
+        let docHeight = $(document).height();
+        let dispHeight = $(window).height();
+        if (check >= docHeight - dispHeight - 150 && dock.css('display') == 'block') {
+            dock.animate({
+                bottom: -150
+            }, 1000);
+            setTimeout(function() {
+                dock.css('display', 'none');
+            }, 1000);
+        } else if (check < docHeight - dispHeight - 200 && dock.css('display') == 'none') {
+            dock.css('bottom', '-150px');
+            dock.css('display', 'block');
+            dock.animate({
+                bottom: 10
+            }, 1000);
+        }
+    });
+
+    logo.on('click', function() {
+        $(window).scrollTop(topLocate);
+    });
+
+    $('#close').on('click', function() {
+        popup.css('display', 'none');
+        $('html').css("overflow-y", "scroll");
+    });
+
+    schedule22.on('click', function() {
+        $('html').css("overflow-y", "hidden");
+        popup.css('display', 'block');
+        schedule22pdf.css('display', 'block');
+        studyplanner22pdf.css('display', 'none');
+        w20220117pdf.css('display', 'none');
+        w20211217pdf.css('display', 'none');
+        w20210713pdf.css('display', 'none');
+        w20210124pdf.css('display', 'none');
+
+
+        $('.popup-title').html("#2022スケジュールデザイン");
+        $('.popup-text').html(" iPadのノートアプリで使用できるスケジュール帳のテンプレートを作成しました。<br>4つのセクションに分かれており、" +
+            "それぞれ年単位、 月単位、 週単位でのスケジューリングや、 年間で見た映画、 読んだ本の記録ができます。");
+
+    });
+
+    studyplanner22.on('click', function() {
+        $('html').css("overflow-y", "hidden");
+        popup.css('display', 'block');
+        schedule22pdf.css('display', 'none');
+        studyplanner22pdf.css('display', 'block');
+        w20220117pdf.css('display', 'none');
+        w20211217pdf.css('display', 'none');
+        w20210713pdf.css('display', 'none');
+        w20210124pdf.css('display', 'none');
+
+        $('.popup-title').html("#2022スタディプランナーデザイン");
+        $('.popup-text').html(" iPadのノートアプリで使用できるスタディプランナーのテンプレートを作成しました。<br>日毎のタスクや勉強時間を記録できます。");
+    });
+
+    w20220117.on('click', function() {
+        $('html').css("overflow-y", "hidden");
+        popup.css('display', 'block');
+        schedule22pdf.css('display', 'none');
+        studyplanner22pdf.css('display', 'none');
+        w20220117pdf.css('display', 'block');
+        w20211217pdf.css('display', 'none');
+        w20210713pdf.css('display', 'none');
+        w20210124pdf.css('display', 'none');
+
+        $('.popup-title').html("#ゲーム開発");
+        $('.popup-text').html(" 『てんしちゃんときたく』というゲームをチームで開発しました。<br>企画、進捗管理、プログラミング、UIデザインを担当し、" +
+            "メルヘンポップな世界観のアクションゲームを作成しました。");
+    });
+
+    w20211217.on('click', function() {
+        $('html').css("overflow-y", "hidden");
+        popup.css('display', 'block');
+        schedule22pdf.css('display', 'none');
+        studyplanner22pdf.css('display', 'none');
+        w20220117pdf.css('display', 'none');
+        w20211217pdf.css('display', 'block');
+        w20210713pdf.css('display', 'none');
+        w20210124pdf.css('display', 'none');
+
+        $('.popup-title').html("#Webアプリケーション開発");
+        $('.popup-text').html(" スケジュールを管理するWebアプリケーションを制作しました。<br>ユーザーIDを共有することで" +
+            "知人の予定を確認することができます。<br>詳しくはGitHubのリポジトリを参照ください。");
+    });
+
+    w20210713.on('click', function() {
+        $('html').css("overflow-y", "hidden");
+        popup.css('display', 'block');
+        schedule22pdf.css('display', 'none');
+        studyplanner22pdf.css('display', 'none');
+        w20220117pdf.css('display', 'none');
+        w20211217pdf.css('display', 'none');
+        w20210713pdf.css('display', 'block');
+        w20210124pdf.css('display', 'none');
+
+        $('.popup-title').html("#アプリケーション企画");
+        $('.popup-text').html(" 習慣化を補助するアプリケーションの企画を発案しました。<br>" +
+            "習慣達成時の記録のハードルを下げることで習慣化を促進するねらいがあります。");
+    });
+
+    w20210124.on('click', function() {
+        $('html').css("overflow-y", "hidden");
+        popup.css('display', 'block');
+        schedule22pdf.css('display', 'none');
+        studyplanner22pdf.css('display', 'none');
+        w20220117pdf.css('display', 'none');
+        w20211217pdf.css('display', 'none');
+        w20210713pdf.css('display', 'none');
+        w20210124pdf.css('display', 'block');
+
+        $('.popup-title').html("#キャラクターデザイン");
+        $('.popup-text').html(" 百川ニダの代理モデルをデザインしました。<br>");
+    });
+
+    button.on('click', function() {
+        $(window).scrollTop(topLocate);
+    });
+
+
+    //https://github.com/M-Hagiwara0237/CalendarApp
+</script>
+
+</html>
